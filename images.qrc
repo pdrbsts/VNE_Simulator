@@ -1,0 +1,36 @@
+<RCC>
+  <qresource prefix="img">
+    <file>pics/purchase_order-50.png</file>
+    <file>pics/reload-50.png</file>
+    <file>pics/2017vneLogoBlack.png</file>
+    <file>pics/exit-50.png</file>
+    <file>pics/bar_chart-50_mod_tr.png</file>
+    <file>pics/area_chart-50.png</file>
+    <file>pics/banknotes-50.png</file>
+    <file>pics/bar_chart-50.png</file>
+    <file>pics/cancel-50.png</file>
+    <file>pics/cash_inserting-50.png</file>
+    <file>pics/cash_receiving-50.png</file>
+    <file>pics/change_user-50.png</file>
+    <file>pics/checkmark-50.png</file>
+    <file>pics/clear_shopping_cart-50.png</file>
+    <file>pics/close-50.png</file>
+    <file>pics/combo_chart-50.png</file>
+    <file>pics/home-50.png</file>
+    <file>pics/left2-50.png</file>
+    <file>pics/logoVNE100.png</file>
+    <file>pics/money_bag-50.png</file>
+    <file>pics/money_box-50.png</file>
+    <file>pics/money-50.png</file>
+    <file>pics/password2-50.png</file>
+    <file>pics/private2-50.png</file>
+    <file>pics/receipt-50.png</file>
+    <file>pics/refill.png</file>
+    <file>pics/settings-50.png</file>
+    <file>pics/shutdown.png</file>
+    <file>pics/undo-50.png</file>
+    <file>pics/unlock-50.png</file>
+    <file>pics/vne.ico</file>
+    <file>pics/vnerosa.jpg</file>
+  </qresource>
+</RCC>

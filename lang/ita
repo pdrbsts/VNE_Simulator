@@ -1,0 +1,288 @@
+WELCOME=Benvenuto\n
+INFO_MACCHINA=Informazioni aggiuntive
+VIRTUAL_KEYBOARD=Tastiera virtuale
+VERSIONE=versione tool
+VERSIONE_AC=versione AC
+STATO_MACCHINA_CONN=Stato macchina:\nconnessa\n\n
+STATO_MACCHINA_DISC=Stato macchina:\nnon connessa\n\n
+STATO_MACCHINA_DISC_SAFE=Stato macchina:\nnon connessa\n\n
+LOW_LEVEL_COINS=Livelli bassi\nmonete:\n
+LOW_LEVEL_NOTES=Livelli bassi\nbanconote:\n
+ZERO_LEVEL_COINS=Terminate monete da:\n
+ZERO_LEVEL_NOTES=Terminate banconote da:\n
+ERR_HOPPER=Hopper in errore\n
+ERR_JCM=Riciclatore\nin errore\n
+AVANTI=Avanti
+ANNULLA=Annulla
+INDIETRO=Back
+VALUTA=Seleziona valuta
+OTHER_VALUTA=altro
+CHIUDI=Chiudi
+PROSEGUI=Prosegui
+SALVA=Salva
+ERR_CONN=Attenzione!\nOperazione fallita\nControllare connessione macchina.
+ERR_CASHMATIC=Attenzione!\nCartella di sistema non presente.\nImpossibile connettersi con il\nsistema gestionale.\nControllare il percorso della cartella.
+I_SI=Si
+I_NO=No
+I_SURE=Sei sicuro di eseguire\nquesta operazione?
+I_SURE_EXIT=Sei sicuro di\nchiudere il programma?
+
+# frame user
+START_REFILL=Ricarica
+END_REFILL=Fine\nricarica
+ADMIN=Accesso\namministratore
+CHANGE_OP=Cambio\noperatore
+CHIUSURA=Chiusura\ndi cassa
+ANNULLA_PAYMENT=Annulla\npagamenti
+STATO=Stato\nmacchina
+IMPOSTAZIONI=Impostazioni
+NEW_USERNAME=Inserisci nuovo username
+NEW_ADMIN=Inserisci password amministratore
+ADMIN_PWD_ERR=Attenzione!\nPassword amministratore\nnon corretta.
+OP_NOT_AVAILABLE=Attenzione!\nUsername non corretto.
+VENDITA=Vendita
+REFUND=Rimborso
+
+# frame admin
+PRELIEVO=Prelievo
+SVUOTA_MONETE=Svuota\nmonete
+SVUOTA_BANCONOTE=Svuota\nbanconote
+CHANGE_PWD=Cambio\npassword
+OPEN=Apri\nporta
+AZZERA_STACKER=Azzera\ncasse
+HOME=Menù\nprincipale
+
+# frame impostazioni
+IP=Indirizzo IP:
+USA_CASHMATIC=Utilizzo cartella condivisa
+USA_ENCRYPTED=Modalità encrypted
+SUBUSER=Permetti controllo stato\na sottoutenti
+VENDITA_SUB=Permetti vendita\na sottoutenti
+REFUND_SUB=Permetti rimborso\na sottoutenti
+SELECT_LANG=Seleziona lingua
+
+# frame prelievo
+PRELIEVO_TAB_MONETE=Prelievo monete\n\nDisponibilità: %0.2f 
+PRELIEVO_TAB_BANC=Prelievo banconote\n\nDisponibilità totale: %0.2f 
+PRELIEVO_TAB_MISTO=Prelievo misto\n\nDisponibilità: %0.2f 
+INSERISCI_IMPORTO=Inserisci importo
+INSERISCI_PEZZI=Quantità
+PEZZI=pezzi
+PRELEVA_BUTTON=Preleva
+NO_PREL_1=Importo non disponibile\nImpossibile completare prelievo.
+NO_PREL_2=Inserire l'importo da prelevare\nin una delle modalità di prelievo.
+IMPORTO_KO_1=Importo inserito in formato\nnon corretto.\n\nEsempio di utilizzo:\n10.00 Euro oppure 10 Euro.
+IMPORTO_KO_2=Numero pezzi inserito in formato\nnon corretto.\n\nEsempio di utilizzo: 5 pezzi.
+PREL_INCORSO=Prelievo in corso\nSi prega di attendere.
+ERR_PREL_1=Impossibile effettuare prelievo\nControllare stato connessione macchina.
+ERR_PREL_2=Impossibile effettuare prelievo\nCodice errore:
+PREL_COMPLETATO=Prelievo completato\n\nImporto erogato: %0.2f
+PREL_NON_COMPLETATO=Prelievo non completo\n\nImporto erogato: %0.2f
+MONETE_MISTE=miste
+NO_PREL_MONETA=Importo non disponibile\ncon il taglio di moneta scelto.\n\nImpossibile completare prelievo.
+
+# svuotamenti
+SVUOTAMENTO_MONETE=Svuotamento monete in corso.\n\nAttendere la fine dell'operazione.
+SVUOTAMENTO_MONETE_KO=Attenzione!\nOperazione di svuotamento\nmonete fallita.
+SVUOTAMENTO_MONETE_OK=Svuotamento monete completato.
+SVUOTAMENTO_BANCONOTE=Svuotamento banconote in corso.\n\nAttendere la fine dell'operazione.
+SVUOTAMENTO_BANCONOTE_KO=Attenzione!\nOperazione di svuotamento\nbanconote fallita.
+SVUOTAMENTO_BANCONOTE_OK=Svuotamento banconote completato.
+
+# azzera stacker
+AZZ_MONETE=Cancella cassa monete
+AZZ_BANCONOTE=Cancella cassa banconote
+AZZ_KO=Attenzione!\nOperazione di azzeramento\nstacker fallita.
+AZZ_OK=Azzeramento stacker\navvenuto con successo.\n\nTogliere fisicamente il denaro\ndallo stacker.
+AZZ_CONTENT=contenuto: %0.2f
+
+# cambio password
+NEW_PWD=Inserisci nuova password
+REPEAT_PWD=Ripeti nuova password
+CAMBIO_PWD_OK=Password amministratore\ncorrettamente modificata.
+CAMBIO_PWD_KO=Attenzione!\nErrore durante\ncambio password.
+CAMBIO_PWD_KO_DIFF=Attenzione!\nLe due password inserite\nnon coincidono.
+
+# apri
+OPEN_OK=Apertura effettuata\ncorrettamente.
+OPEN_KO=Attenzione!\nApertura porta fallita.
+
+# refill
+REFILL_COMPLETATO=Ricarica completata\n\n
+MONETE_INSERTED=Monete inserite: %0.2f
+BANCONOTE_INSERTED=Banconote inserite: %0.2f
+REFILL_END_KO=Attenzione!\nOperazione di fine refill\nfallita.
+WAIT_REFILL_STIR=Procedura di terminazione refill in corso
+
+# annulla pagamento
+ANNULLA_PAYMENT_OK=Pagamento annullato.
+ANNULLA_PAYMENT_KO=Nessun pagamento\nda annullare.
+
+# chiusura cassa
+CHIUSURA_OK=Chiusura di cassa effettuata\n\n
+CHIUSURA_DATI_1=- data inizio: 
+CHIUSURA_DATI_2=- totale IN: %0.2f
+CHIUSURA_DATI_3=- totale OUT: %0.2f
+CHIUSURA_DATI_4=- totale pagamenti: %0.2f
+CHIUSURA_DATI_5=- tot. OP IN: %0.2f
+CHIUSURA_DATI_6=- tot. OP OUT: %0.2f
+CHIUSURA_DATI_7=- contenuto attuale: %0.2f
+CHIUSURA_KO=Attenzione!\nOperazione di chiusura di cassa\nfallita.
+
+# frame stato
+STATO_MONETE=Monete\n\nStato hopper:
+STATO_OK= ok\n\n
+STATO_ERRORE= in errore\n
+DETTAGLIO_MONETE=Dettaglio monete:\n
+MONETE_WORD=monete
+CASSA_MONETE=\nCassa monete: %0.2f
+TOTALE_MONETE=\n\nTotale monete: %0.2f
+STATO_BANCONOTE=Banconote\n\nStato riciclatore:
+DETTAGLIO_BANCONOTE=Dettaglio banconote:\n
+BANCONOTE_WORD=banconote
+CASSA_BANCONOTE=\nCassa banconote: %0.2f
+TOTALE_BANCONOTE=\n\nTotale banconote: %0.2f
+
+# frame annulla pagamento
+ANNULLA_INSTR=Annullamento pagamento in corso\n\nRestituire il denaro inserito al cliente\noppure accettare pagamento parziale
+RESTITUISCI_IMP=Restituisci
+ANNULLA_PAGAMENTO=Accetta\nparziale
+SELECT_PAYMENT=Selezionare il pagamento\nda cancellare
+CODICE_PAYMENT=codice
+
+# frame spegnimento
+SPEGNIMENTO=Spegnimento\nmacchina
+SPEGNIMENTO_TOT=Spegnimento\ntotale
+RIAVVIO=Riavvio\nsoftware
+SPEGNIMENTO_OK=Spegnimento effettuato\ncorrettamente.
+RIAVVIO_OK=Riavvio effettuato\ncorrettamente.
+SPEGNIMENTO_KO=Attenzione!\nSpegnimento fallito.
+RIAVVIO_KO=Attenzione!\nRiavvio fallito.
+
+# frame vendita
+VENDITA_LABEL=Inserisci importo\ndella vendita
+VENDITA_REFUND=Vendita rimborsabile
+VENDITA_INCORSO=Stato pagamento %s
+VENDITA_RICHIESTO=Richiesto
+VENDITA_INSERITO=Inserito
+VENDITA_RESTO=Resto
+VENDITA_ANNULLA=Annulla\npagamento
+VENDITA_ST_COMPL=completato
+VENDITA_ST_INCORSO=in corso
+VENDITA_ST_NORESTO=\nimpossibile completare resto
+ERR_VENDITA_1=Impossibile effettuare vendita\nControllare stato connessione macchina.
+ERR_VENDITA_2=Impossibile effettuare vendita\nCodice errore:
+VENDITA_HIDE=Nascondi
+VENDITA_ST_RETURNED=restituito
+VENDITA_ST_PARTIAL=\naccettato parzialmente
+VENDITA_ST_DELETED=cancellato
+VENDITA_WARNING=Attenzione!\nPagamento vendita in corso
+
+# frame refund
+REFUND_LABEL_DATA=Seleziona il giorno del rimborso richiesto
+REFUND_LABEL_SELECT=Selezionare il pagamento\nda rimborsare
+NO_REFUND_ERR=Impossibile scaricare\nlista pagamenti
+NO_REFUND_DATE=Nessun pagamento rimborsabile\nnel giorno selezionato
+REFUND_INCORSO=Rimborso in corso\nSi prega di attendere.
+ERR_REFUND_1=Impossibile effettuare rimborso\nControllare stato connessione macchina.
+ERR_REFUND_2=Impossibile effettuare rimborso\nCodice errore:
+REFUND_COMPLETATO=Rimborso completato\n\nImporto erogato: %0.2f
+REFUND_NON_COMPLETATO=Rimborso non completo\n\nImporto da rimborsare: %0.2f\n\nImporto erogato: %0.2f
+
+# frame waiting
+WAIT_TIME=Per favore attendere %s secondi
+
+# frame JCM
+JCM_TOT=Svuotamento totale
+JCM_PARZ=Svuotamento parziale\n(fondo cassa)
+# frame REFILL
+REFILL_ONLY=Accetta solo tagli riciclo
+REFILL_ALL=Accetta tutti i tagli
+
+# tab RIEPILOGO
+LABEL_BUTTON_RIEPILOGO=Riepilogo
+RIEPILOGO_1=Riepilogo macchina\n(data ultima chiusura: %s)\n\nContenuto attuale: %0.2f %s\n\nPagamenti:\n\nricevuti: %0.2f %s\nannullati: %0.2f %s\ncorrispettivo: %0.2f %s\n\npagamenti in contanti: %0.2f %s\naltri pagamenti: %0.2f %s\nresti non pagati: %0.2f %s
+RIEPILOGO_2=Operatore:\n\ntotale IN: %0.2f %s\ntotale OUT: %0.2f %s
+BUTTON_LISTA_PAGAMENTI=Lista\npagamenti
+NO_PAYMENT_DATE=Nessun pagamento\nnel giorno selezionato
+LIST_PAYMENT_LABEL_DATA=Seleziona il giorno
+LIST_PAYMENT_LABEL_SELECT=Selezionare il pagamento\nper avere maggiori dettagli
+RIEPILOGO_PAGAMENTO=Riepilogo pagamento:\n\nData: %s\nCodice: %s\nOperatore: %s\nStato: %s\nImporto: %0.2f %s\nInserito: %0.2f %s\nResto: %0.2f %s\nRimborsato: %0.2f %s
+STATO_COMPLETED=completato
+STATO_ANNULLATO=annullato
+STATO_PARTIAL=accettato parzialmente
+STATO_RETURNED=restituito
+STATO_PENDING=pendente
+STATO_NOT_COMPLETED=incompleto
+
+# tab REFILL MANUALE
+FUNZ_NON_DISP=Funzione non disponibile\nper questo modello
+REF_MAN_LABEL=Ricarica manuale JCM
+REF_AUTO_LABEL=Refill automatico\n
+REF_LABEL=Ricarica
+REF_MAN_RESP=Richiesta di ricarica manuale inviata\nControllare lo stato della macchina
+
+# tab RIPRISTINO
+LABEL_BUTTON_RIPRISTINO=Ripristino
+ALERT_RIPRISTINO=Attenzione: i dati non vengono aggiornati in tempo reale.\nIl simbolo "+" indica un eccesso di monete/banconote,\nil simbolo "-" una mancanza di monete/banconote.
+LABEL_RIPRISTINO=Ripristino a fondocassa
+START_RIPRISTINO=Avvia\nripristino
+LABEL_RIPRISTINO_MONETE=Riepilogo fondocassa monete
+LABEL_RIPRISTINO_BANC=Riepilogo fondocassa banconote
+LABEL_LIV_FONDOCASSA=livello fondocassa
+SVUOTAMENTO_COMPLETATO=Svuotamento a fondocassa completato.
+TOTALE_SVUOTATO=Totale svuotato: %0.2f
+TOT_SVUOTATO_COINS=Totale svuotato monete: %0.2f
+TOT_SVUOTATO_NOTES=Totale svuotato banconote: %0.2f
+STACKER_COINS=Contenuto cassa monete: %0.2f
+STACKER_NOTES=Contenuto cassa banconote: %0.2f
+STACKER_DELETE=Vuoi cancellare il contenuto delle casse?
+STACKERS_DELETED=Casse cancellate.
+LABEL_RIPRISTINO_REFILL=Per raggiungere i livelli di fondocassa impostati\nè necessario inserire:
+LABEL_RIPRISTINO_REFILL_CHOOSE=Vuoi effettuare adesso una ricarica\ndelle monete/banconote mancanti?
+LABEL_RIPRISTINO_REFILL_ON=RICARICA IN CORSO
+
+#tab PERIPHERAL
+LABEL_SET_PERIPH=Impostazioni periferiche\nAutomatic Cash
+GO_TO_JCM=Configura\nriciclatore
+GO_TO_SH=Configura\nSmart Hopper
+CONFIG_SH=Configurazione Smart Hopper
+CONFIG_RECYCLER=Configurazione riciclatore
+ACCETTA_LABEL=Accetta\nmoneta
+RICICLA_LABEL=Ricicla\nmoneta
+MIN_LEV_LABEL=Livello\nfondocassa
+MAX_LEV_LABEL=Livello\nmassimo
+ERR_VALORI=Valori inseriti\nnon corretti
+LABEL_CASSETTA=Cassetta
+LABEL_DENOM=Taglio\nbanconota
+CONF_SH_OK=Configurazione Smart Hopper\ncompletata
+CONF_JCM_OK=Configurazione riciclatore\ncompletata
+ALERT_JCM_NOT_EMPTY=Attenzione! Impossibile cambiare\ntaglio delle seguenti cassette:\n\nCassetta
+ALERT_JCM_NOT_EMPTY_END=\n\nSvuotare le cassette\ne ripetere l'operazione
+ALERT_MEI_NOT_EMPTY=Attenzione! Impossibile cambiare\ntaglio delle cassette
+ALERT_JCM_2TAGLI=Configurazione completata.\n\nAttenzione!\nNecessario cambiare le plastiche\ninterne alla cassetta modificata
+
+# new interface
+REFILL_IN_CORSO=Refill in corso\n\nInserito: %0.2f
+PAGAMENTO_COMPLETATO=Pagamento completato\nArrivederci e grazie
+EROG_RESTO=Erogazione resto in corso\nAttendere prego
+NO_RESTO=Resto non completato\nMancante: %0.02f
+PREL_IN_CORSO=Prelievo in corso
+PREL_DONE=Prelievo completato: erogato %0.2f
+REFILL_DONE=Refill completato: inserito %0.02f
+EMPTY_COINS_IN_CORSO=Svuotamento monete in corso
+EMPTY_COINS_DONE=Svuotamento monete completato: %0.2f
+EMPTY_NOTES_IN_CORSO=Svuotamento banconote in corso
+EMPTY_NOTES_DONE=Svuotamento banconote completato: %0.2f
+CASSA_ATTIVA=Cassa attiva
+TAGLI_JCM=Cassette riciclatore
+STATO_PAGAMENTO=Stato pagamento
+PAGO_RICHIESTO=Richiesto
+PAGO_INSERITO=Inserito
+PAGO_RESTO=Resto
+PAGO_ACC=Accetta parziale
+PAGO_RESTITUISCI=Restituisci
+EROG_REFUND=Rimborso in corso\nAttendere prego
+REFUND_DONE=Rimborso completato: erogato %0.2f
+PULIZIA=Cancella lista pagamenti\noperazioni (ex: ricariche)\ne file di log
+PULIZIA_DONE=Cancellazione completata
